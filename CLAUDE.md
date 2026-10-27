@@ -11,7 +11,7 @@ Rust CLI that parses Terraform files and generates opinionated infrastructure di
 Cargo workspace:
 - `crates/tfdia-core` — parser, model, rules. No filesystem IO (keeps a future WASM build possible).
 - `crates/tfdia-cli` — `clap` CLI, file reading/writing.
-- `fixtures/` — sample Terraform projects used by snapshot tests.
+- `tests/` — integration test crate (`tfdia-tests`). `tests/fixtures/<name>/` holds sample Terraform projects; each one is snapshot-tested. Add a fixture for every new Terraform feature supported.
 
 ## Commands
 - Build: `cargo build`

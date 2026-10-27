@@ -450,10 +450,17 @@ name = "tfdia-core"
 version = "0.1.0"
 dependencies = [
  "hcl-rs",
- "insta",
  "serde",
- "serde_json",
  "thiserror",
+]
+
+[[package]]
+name = "tfdia-tests"
+version = "0.1.0"
+dependencies = [
+ "hcl-rs",
+ "insta",
+ "tfdia-core",
 ]
 
 [[package]]

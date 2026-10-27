@@ -1,0 +1,16 @@
+[package]
+name = "tfdia-tests"
+version.workspace = true
+edition.workspace = true
+license-file.workspace = true
+publish = false
+autotests = false
+
+[[test]]
+name = "fixtures"
+path = "fixtures.rs"
+
+[dev-dependencies]
+hcl-rs = "0.19.9"
+insta = { version = "1.49.0", features = ["json"] }
+tfdia-core = { path = "../crates/tfdia-core" }
