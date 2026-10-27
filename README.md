@@ -21,3 +21,9 @@ terraform-dia generate --input path/to/terraform/files --output path/to/output -
 
 included to the CI/CD pipeline to automatically generate diagrams whenever Terraform files are updated. This ensures that the diagrams are always up-to-date with the latest infrastructure changes. Additionally, it can be used as a standalone tool for developers to visualize their infrastructure during the development process.
 The reult file could be inserted to readme files or other documentation to provide a visual representation of the infrastructure alongside the code.
+
+# Far-Far future
+
+1) Get aws billing data and generate diagrams with cost information. This can help teams optimize their infrastructure and reduce costs by identifying expensive resources and suggesting alternatives. Additionally, the tool could integrate with other cloud providers and support multi-cloud architectures, allowing users to visualize their entire infrastructure across different platforms.
+
+2) Probability of outage and downtime can be calculated based on the architecture and dependencies, providing insights into the reliability of the infrastructure. This can help teams make informed decisions about redundancy, failover strategies, and disaster recovery planning.
